@@ -3,11 +3,12 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ErrorBoundary from './components/ErrorBoundary'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'https://remedyexcel.com' : 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'https://rxl-homeopathy.onrender.com' : 'http://localhost:3000'),
   title: {
     default: 'Remedy Excel - Specialists in Homeopathy',
     template: '%s | Remedy Excel'
@@ -43,9 +44,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <ErrorBoundary>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </ErrorBoundary>
       </body>
     </html>
   )
