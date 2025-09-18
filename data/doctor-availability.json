@@ -1,0 +1,233 @@
+{
+  "id": "1",
+  "doctorName": "Dr. Sarah Smith",
+  "schedule": [
+    {
+      "day": "Monday",
+      "isWorking": true,
+      "timeSlots": [
+        {
+          "id": "1",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isAvailable": true
+        },
+        {
+          "id": "2",
+          "startTime": "10:00",
+          "endTime": "11:00",
+          "isAvailable": true
+        },
+        {
+          "id": "3",
+          "startTime": "11:00",
+          "endTime": "12:00",
+          "isAvailable": true
+        },
+        {
+          "id": "4",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "isAvailable": true
+        },
+        {
+          "id": "5",
+          "startTime": "15:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        },
+        {
+          "id": "6",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "isWorking": true,
+      "timeSlots": [
+        {
+          "id": "7",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isAvailable": true
+        },
+        {
+          "id": "8",
+          "startTime": "10:00",
+          "endTime": "11:00",
+          "isAvailable": true
+        },
+        {
+          "id": "9",
+          "startTime": "11:00",
+          "endTime": "12:00",
+          "isAvailable": true
+        },
+        {
+          "id": "10",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "isAvailable": true
+        },
+        {
+          "id": "11",
+          "startTime": "15:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        },
+        {
+          "id": "12",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "isWorking": true,
+      "timeSlots": [
+        {
+          "id": "13",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isAvailable": true
+        },
+        {
+          "id": "14",
+          "startTime": "10:00",
+          "endTime": "11:00",
+          "isAvailable": true
+        },
+        {
+          "id": "15",
+          "startTime": "11:00",
+          "endTime": "12:00",
+          "isAvailable": true
+        },
+        {
+          "id": "16",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "isAvailable": true
+        },
+        {
+          "id": "17",
+          "startTime": "15:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        },
+        {
+          "id": "18",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "isWorking": true,
+      "timeSlots": [
+        {
+          "id": "19",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isAvailable": true
+        },
+        {
+          "id": "20",
+          "startTime": "10:00",
+          "endTime": "11:00",
+          "isAvailable": true
+        },
+        {
+          "id": "21",
+          "startTime": "11:00",
+          "endTime": "12:00",
+          "isAvailable": true
+        },
+        {
+          "id": "22",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "isAvailable": true
+        },
+        {
+          "id": "23",
+          "startTime": "15:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        },
+        {
+          "id": "24",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        },
+        {
+          "id": "25",
+          "startTime": "18:00",
+          "endTime": "19:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "isWorking": true,
+      "timeSlots": [
+        {
+          "id": "25",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isAvailable": true
+        },
+        {
+          "id": "26",
+          "startTime": "10:00",
+          "endTime": "11:00",
+          "isAvailable": true
+        },
+        {
+          "id": "27",
+          "startTime": "11:00",
+          "endTime": "12:00",
+          "isAvailable": true
+        },
+        {
+          "id": "28",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "isAvailable": true
+        },
+        {
+          "id": "29",
+          "startTime": "15:00",
+          "endTime": "16:00",
+          "isAvailable": true
+        },
+        {
+          "id": "30",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "isWorking": false,
+      "timeSlots": []
+    },
+    {
+      "day": "Sunday",
+      "isWorking": false,
+      "timeSlots": []
+    }
+  ],
+  "lastUpdated": "2025-09-18T05:55:04.223Z"
+}

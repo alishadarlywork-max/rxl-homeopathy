@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding Homeopathy: A Natural Approach to Healing",
+    "excerpt": "Discover the principles of homeopathy and how this natural healing system works to restore balance and promote wellness.",
+    "content": "\n      <h2>What is Homeopathy?</h2>\n      <p>Homeopathy is a holistic system of medicine that treats the individual as a whole, not just the symptoms. Developed over 200 years ago by German physician Samuel Hahnemann, homeopathy is based on the principle of \"like cures like\" - substances that cause symptoms in healthy people can cure similar symptoms in sick people when given in very small doses.</p>\n      \n      <h3>The Core Principles</h3>\n      <p>Homeopathy operates on several fundamental principles:</p>\n      <ul>\n        <li><strong>Law of Similars:</strong> Like cures like - a substance that produces symptoms in a healthy person can treat those same symptoms in a sick person.</li>\n        <li><strong>Minimum Dose:</strong> The smallest possible dose is used to stimulate the body's natural healing response.</li>\n        <li><strong>Individualization:</strong> Each person is treated as a unique individual, considering their physical, mental, and emotional state.</li>\n        <li><strong>Holistic Approach:</strong> The whole person is treated, not just isolated symptoms.</li>\n      </ul>\n      \n      <h3>How Homeopathic Remedies Work</h3>\n      <p>Homeopathic remedies are made from natural substances including plants, minerals, and animal products. These substances undergo a process called potentization, which involves serial dilution and succussion (vigorous shaking). This process is believed to enhance the healing properties while eliminating any toxic effects.</p>\n      \n      <h3>Benefits of Homeopathy</h3>\n      <p>Homeopathy offers several advantages:</p>\n      <ul>\n        <li>Safe and gentle treatment with no harmful side effects</li>\n        <li>Suitable for all ages, including infants and elderly</li>\n        <li>Can be used alongside conventional medicine</li>\n        <li>Addresses the root cause of illness, not just symptoms</li>\n        <li>Cost-effective treatment option</li>\n        <li>Promotes overall health and well-being</li>\n      </ul>\n      \n      <h3>Conditions Treated</h3>\n      <p>Homeopathy can effectively treat a wide range of acute and chronic conditions including:</p>\n      <ul>\n        <li>Respiratory conditions (asthma, allergies, colds)</li>\n        <li>Digestive disorders (IBS, gastritis, constipation)</li>\n        <li>Skin conditions (eczema, psoriasis, acne)</li>\n        <li>Mental health issues (anxiety, depression, stress)</li>\n        <li>Women's health (menstrual disorders, menopause)</li>\n        <li>Children's health (behavioral issues, growth problems)</li>\n      </ul>\n      \n      <h3>Conclusion</h3>\n      <p>Homeopathy represents a gentle, natural approach to healing that respects the body's innate ability to restore balance and health. By treating the whole person and addressing the root causes of illness, homeopathy offers a safe and effective alternative or complement to conventional medicine.</p>\n    ",
+    "author": "Dr. Sarah Smith",
+    "date": "2024-01-15",
+    "category": "Homeopathy Basics",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    "readTime": "5 min read",
+    "featured": true,
+    "status": "Published",
+    "views": 1251
+  },
+  {
+    "id": 2,
+    "title": "Managing Stress Naturally with Homeopathic Remedies",
+    "excerpt": "Learn how homeopathic treatments can help reduce stress and anxiety without harmful side effects.",
+    "content": "\n      <h2>Understanding Stress and Its Impact</h2>\n      <p>Stress has become an inevitable part of modern life, affecting our physical and mental well-being. Chronic stress can lead to various health issues including anxiety, depression, insomnia, digestive problems, and weakened immune function.</p>\n      \n      <h3>Homeopathic Approach to Stress</h3>\n      <p>Homeopathy offers a natural and holistic approach to managing stress by addressing both the symptoms and underlying causes. Unlike conventional treatments that may have side effects, homeopathic remedies work gently to restore emotional balance.</p>\n      \n      <h3>Common Homeopathic Remedies for Stress</h3>\n      <ul>\n        <li><strong>Ignatia:</strong> For acute grief, emotional shock, and mood swings</li>\n        <li><strong>Arsenicum Album:</strong> For anxiety with restlessness and perfectionism</li>\n        <li><strong>Natrum Muriaticum:</strong> For depression, emotional suppression, and social anxiety</li>\n        <li><strong>Pulsatilla:</strong> For emotional sensitivity and dependency</li>\n        <li><strong>Sepia:</strong> For hormonal stress and emotional exhaustion</li>\n      </ul>\n      \n      <h3>Lifestyle Changes to Support Treatment</h3>\n      <p>Along with homeopathic treatment, certain lifestyle modifications can enhance stress management:</p>\n      <ul>\n        <li>Regular exercise and physical activity</li>\n        <li>Meditation and mindfulness practices</li>\n        <li>Adequate sleep and rest</li>\n        <li>Healthy diet with stress-reducing foods</li>\n        <li>Time management and prioritization</li>\n        <li>Social support and meaningful relationships</li>\n      </ul>\n    ",
+    "author": "Dr. Sarah Smith",
+    "date": "2024-01-10",
+    "category": "Mental Health",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    "readTime": "4 min read",
+    "featured": false,
+    "status": "Published",
+    "views": 890
+  },
+  {
+    "title": "test1",
+    "excerpt": "sdj kwdn klwndm wjhd wjdnms wknds ekndms ",
+    "content": "bsv qwbr jsbd sqj donjw weonwm jw dqkjsm jwheql,;f wurwfw",
+    "author": "Dr. Alisha",
+    "date": "2025-09-18",
+    "category": "Homeopathy Basics",
+    "image": "",
+    "readTime": "5 min read",
+    "featured": false,
+    "status": "Draft",
+    "id": 3,
+    "views": 1
+  },
+  {
+    "title": "test1",
+    "excerpt": "sdj kwdn klwndm wjhd wjdnms wknds ekndms ",
+    "content": "bsv qwbr jsbd sqj donjw weonwm jw dqkjsm jwheql,;f wurwfw",
+    "author": "Dr. Alisha",
+    "date": "2025-09-18",
+    "category": "Homeopathy Basics",
+    "image": "",
+    "readTime": "5 min read",
+    "featured": false,
+    "status": "Draft",
+    "id": 4,
+    "views": 0
+  }
+]
