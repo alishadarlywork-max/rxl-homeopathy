@@ -28,12 +28,17 @@ const Navbar = () => {
           <Link href="/" className="flex items-center space-x-2">
             <div className="relative w-16 h-14">
               <Image
-                src="/images/logo1.svg"
+                src="/images/logo.svg"
                 alt="RXL - Remedy Excel"
                 width={60}
                 height={60}
                 className="object-contain"
                 priority
+                onError={(e) => {
+                  console.error('Logo failed to load:', e)
+                  // Fallback to text if image fails
+                  e.currentTarget.style.display = 'none'
+                }}
               />
             </div>
             <div className="flex flex-col">

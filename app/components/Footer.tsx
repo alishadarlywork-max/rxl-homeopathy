@@ -17,6 +17,10 @@ const Footer = () => {
                   width={32}
                   height={32}
                   className="object-contain"
+                  onError={(e) => {
+                    console.error('Footer logo failed to load:', e)
+                    e.currentTarget.style.display = 'none'
+                  }}
                 />
               </div>
               <div className="flex flex-col">
