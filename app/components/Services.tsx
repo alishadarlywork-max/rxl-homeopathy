@@ -20,21 +20,21 @@ const Services = () => {
       icon: FaHeartbeat,
       title: 'Respiratory Ailments',
       description: 'Evidence-based homeopathic treatment for respiratory conditions with safe remedies.',
-      image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://www.news-medical.net/images/Article_Images/ImageForArticle_22740_16564268624824428.jpg',
       features: ['Asthma & Bronchitis', 'Chronic Cough', 'Breathing Difficulties']
     },
     {
       icon: FaStethoscope,
       title: 'Gastro-intestinal Disorders',
       description: 'Comprehensive treatment for digestive disorders eliminating root causes.',
-      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://www.metropolisindia.com/upgrade/blog/upload/24/07/Gastrointestinal_Diseases1720011629.webp',
       features: ['IBS & Gastric Ulcers', 'GERD Treatment', 'Digestive Problems']
     },
     {
       icon: FaFemale,
       title: 'Female Complaints',
       description: 'Specialized treatment for women\'s health including infertility and menstrual disorders.',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://d35oenyzp35321.cloudfront.net/Polycystic_Ovary_Syndrome_PCOS_ad4de67678.jpg',
       features: ['Female Infertility', 'Menstrual Issues', 'PCOS & Fibroids']
     },
     {
