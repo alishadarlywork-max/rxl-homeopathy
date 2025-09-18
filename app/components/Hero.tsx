@@ -70,14 +70,16 @@ const Hero = () => {
 
           {/* Image */}
           <div className="relative">
-            <div className="relative z-10">
-              <img
-                src="/images/hero.jpg"
-                alt="Homeopathy consultation"
-                width={600}
-                height={700}
-                className="rounded-2xl shadow-2xl object-cover"
-              />
+            <div className="relative z-10 w-[600px] h-[700px] rounded-2xl shadow-2xl bg-cover bg-center bg-no-repeat" 
+                 style={{backgroundImage: 'url(/images/hero.jpg)'}}>
+              {/* Fallback for when image doesn't load */}
+              <div className="w-full h-full bg-gradient-to-br from-primary-100 to-secondary-100 rounded-2xl flex items-center justify-center">
+                <div className="text-center text-gray-600">
+                  <div className="text-6xl mb-4">🌿</div>
+                  <p className="text-lg font-medium">Natural Healing</p>
+                  <p className="text-sm">Homeopathy Consultation</p>
+                </div>
+              </div>
             </div>
             
             {/* Floating Cards */}

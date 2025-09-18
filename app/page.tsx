@@ -4,6 +4,7 @@ import Features from './components/Features'
 import Services from './components/Services'
 import Testimonials from './components/Testimonials'
 import CTA from './components/CTA'
+import ImageTest from './components/ImageTest'
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <ImageTest />
       <Features />
       <Services />
       <Testimonials />
