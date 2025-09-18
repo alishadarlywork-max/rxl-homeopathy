@@ -2,9 +2,10 @@ services:
   - type: web
     name: rxl-homeopathy
     env: node
-    buildCommand: npm install
+    buildCommand: npm ci && npm run build
     startCommand: npm run start
     plan: free
+    nodeVersion: 18
     envVars:
       - key: NODE_ENV
         value: production
