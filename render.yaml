@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: rxl-homeopathy
+    env: node
+    buildCommand: npm install
+    startCommand: npm run start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXTAUTH_URL
+        value: https://rxl-homeopathy.onrender.com
+      - key: NEXTAUTH_SECRET
+        generateValue: true
+    healthCheckPath: /
+    autoDeploy: true
+    branch: main
