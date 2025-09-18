@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="relative w-8 h-8">
-                <img
+                <Image
                   src="/images/logo.svg"
                   alt="RXL - Remedy Excel"
                   width={32}
