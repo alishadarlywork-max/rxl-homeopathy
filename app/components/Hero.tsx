@@ -72,7 +72,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10">
               <Image
-                src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="/images/hero.jpg"
                 alt="Homeopathy consultation"
                 width={600}
                 height={700}
