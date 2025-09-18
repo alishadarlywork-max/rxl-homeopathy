@@ -70,14 +70,15 @@ const Hero = () => {
 
           {/* Image */}
           <div className="relative">
-            <div className="relative z-10 w-[600px] h-[700px] rounded-2xl shadow-2xl bg-cover bg-center bg-no-repeat" 
-                 style={{backgroundImage: 'url(/images/hero.jpg)'}}>
-              {/* Fallback for when image doesn't load */}
-              <div className="w-full h-full bg-gradient-to-br from-primary-100 to-secondary-100 rounded-2xl flex items-center justify-center">
-                <div className="text-center text-gray-600">
-                  <div className="text-6xl mb-4">🌿</div>
-                  <p className="text-lg font-medium">Natural Healing</p>
-                  <p className="text-sm">Homeopathy Consultation</p>
+            <div className="relative z-10 w-[600px] h-[700px] rounded-2xl shadow-2xl bg-gradient-to-br from-primary-100 to-secondary-100 flex items-center justify-center">
+              <div className="text-center text-gray-700 p-8">
+                <div className="text-8xl mb-6">🌿</div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">Natural Healing</h3>
+                <p className="text-lg text-gray-600 mb-4">Homeopathy Consultation</p>
+                <div className="flex justify-center space-x-4 text-sm text-gray-500">
+                  <span>✓ Safe & Natural</span>
+                  <span>✓ Holistic Approach</span>
+                  <span>✓ Expert Care</span>
                 </div>
               </div>
             </div>
