@@ -17,7 +17,24 @@ const Footer = () => {
                   width={32}
                   height={32}
                   className="object-contain"
+                  onError={(e) => {
+                    // Fallback to inline SVG if external SVG fails
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const fallback = target.nextElementSibling as HTMLElement;
+                    if (fallback) fallback.style.display = 'block';
+                  }}
                 />
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 100 100"
+                  className="object-contain absolute top-0 left-0"
+                  style={{ display: 'none' }}
+                >
+                  <circle cx="50" cy="50" r="45" fill="#10b981" stroke="#059669" strokeWidth="2"/>
+                  <text x="50" y="60" textAnchor="middle" fontSize="16" fontWeight="bold" fill="white">RXL</text>
+                </svg>
               </div>
               <div className="flex flex-col">
                 <div className="text-lg font-bold leading-none">
