@@ -71,13 +71,12 @@ const Hero = () => {
           {/* Image */}
           <div className="relative">
             <div className="relative z-10">
-              <Image
+              <img
                 src="/images/hero.jpg"
                 alt="Homeopathy consultation"
                 width={600}
                 height={700}
                 className="rounded-2xl shadow-2xl object-cover"
-                priority
               />
             </div>
             

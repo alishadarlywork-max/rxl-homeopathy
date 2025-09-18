@@ -27,13 +27,12 @@ const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="relative w-16 h-14">
-              <Image
+              <img
                 src="/images/logo.svg"
                 alt="RXL - Remedy Excel"
                 width={60}
                 height={60}
                 className="object-contain"
-                priority
               />
             </div>
             <div className="flex flex-col">
