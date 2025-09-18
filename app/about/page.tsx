@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import { FaAward, FaGraduationCap, FaUsers, FaClock, FaHeart, FaLeaf } from 'react-icons/fa'
 
 export const metadata: Metadata = {
@@ -79,19 +78,24 @@ const About = () => {
             {/* Image */}
             <div className="relative">
               <div className="relative z-10">
-                <Image
-                  src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                  alt="Dr. Sarah Smith - Homeopathic Practitioner"
-                  width={600}
-                  height={700}
-                  className="rounded-2xl shadow-2xl object-cover"
-                />
+                <div className="w-[600px] h-[700px] rounded-2xl shadow-2xl bg-gradient-to-br from-primary-100 to-secondary-100 flex items-center justify-center">
+                  <div className="text-center text-gray-700 p-8">
+                    <div className="text-8xl mb-6">👩‍⚕️</div>
+                    <h3 className="text-2xl font-bold text-gray-800 mb-2">Dr. Dhanya</h3>
+                    <p className="text-lg text-gray-600 mb-4">Chief Homeopathic Practitioner</p>
+                    <div className="flex justify-center space-x-4 text-sm text-gray-500">
+                      <span>✓ MD Homeopathy</span>
+                      <span>✓ 15+ Years</span>
+                      <span>✓ Expert Care</span>
+                    </div>
+                  </div>
+                </div>
               </div>
               
               {/* Floating Card */}
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg z-20 max-w-xs">
                 <div className="text-center">
-                  <div className="text-lg font-bold text-gray-900">Dr. Sarah Smith</div>
+                  <div className="text-lg font-bold text-gray-900">Dr. Dhanya</div>
                   <div className="text-primary-600 font-medium">Chief Homeopathic Practitioner</div>
                   <div className="text-sm text-gray-600 mt-2">Remedy Excel - MD Homeopathy, 15+ Years Experience</div>
                 </div>
@@ -189,13 +193,18 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Image */}
             <div className="relative">
-              <Image
-                src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Natural Healing Clinic Interior"
-                width={600}
-                height={500}
-                className="rounded-2xl shadow-xl object-cover"
-              />
+              <div className="w-full h-[400px] rounded-2xl shadow-2xl bg-gradient-to-br from-primary-100 to-secondary-100 flex items-center justify-center">
+                <div className="text-center text-gray-700 p-8">
+                  <div className="text-8xl mb-6">🏥</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-2">Our Clinic</h3>
+                  <p className="text-lg text-gray-600 mb-4">Natural Healing Environment</p>
+                  <div className="flex justify-center space-x-4 text-sm text-gray-500">
+                    <span>✓ Modern Facility</span>
+                    <span>✓ Comfortable</span>
+                    <span>✓ Welcoming</span>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Content */}
