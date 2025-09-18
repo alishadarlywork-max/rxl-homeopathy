@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaCalendarAlt, FaUser, FaArrowLeft, FaTag, FaShareAlt, FaBookmark } from 'react-icons/fa'
-import { getBlogPost, getBlogPosts, incrementViewCount } from '@/lib/blog-data'
+import { getBlogPost, getBlogPosts, incrementViewCount } from '../../../lib/blog-data'
 
 interface BlogPostPageProps {
   params: {

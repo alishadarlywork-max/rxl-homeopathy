@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { FaPlus, FaTrash, FaSave, FaClock } from 'react-icons/fa'
-import { DoctorAvailability, TimeSlot } from '@/lib/appointment-data'
+import { DoctorAvailability, TimeSlot } from '../../lib/appointment-data'
 
 interface AvailabilityManagerProps {
   initialAvailability: DoctorAvailability

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getAppointments, addAppointment, generateUniquePassword, markPasswordAsUsed } from '@/lib/appointment-data'
-import { sendAppointmentConfirmationToPatient, sendAppointmentNotificationToDoctor } from '@/lib/email-service'
+import { getAppointments, addAppointment, generateUniquePassword, markPasswordAsUsed } from '../../../lib/appointment-data'
+import { sendAppointmentConfirmationToPatient, sendAppointmentNotificationToDoctor } from '../../../lib/email-service'
 
 export async function GET() {
   try {

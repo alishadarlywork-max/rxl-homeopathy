@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FaArrowLeft, FaSave, FaPlus, FaTrash, FaClock } from 'react-icons/fa'
-import { getDoctorAvailability, updateDoctorAvailability } from '@/lib/appointment-data'
-import AvailabilityManager from '@/app/components/AvailabilityManager'
+import { getDoctorAvailability, updateDoctorAvailability } from '../../../lib/appointment-data'
+import AvailabilityManager from '../../components/AvailabilityManager'
 
 const AvailabilityPage = () => {
   const availability = getDoctorAvailability()

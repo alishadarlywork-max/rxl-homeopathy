@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaCalendarAlt, FaUser, FaArrowRight, FaTag } from 'react-icons/fa'
-import { getBlogPosts } from '@/lib/blog-data'
+import { getBlogPosts } from '../../lib/blog-data'
 
 export const metadata: Metadata = {
   title: 'Blog - Homeopathy Health Tips & Insights',

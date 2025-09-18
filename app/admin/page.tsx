@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FaPlus, FaArrowLeft, FaEdit, FaEye, FaClock } from 'react-icons/fa'
-import { getBlogPosts } from '@/lib/blog-data'
-import AdminActions from '@/app/components/AdminActions'
+import { getBlogPosts } from '../../lib/blog-data'
+import AdminActions from '../components/AdminActions'
 
 const AdminPanel = () => {
   const blogPosts = getBlogPosts()

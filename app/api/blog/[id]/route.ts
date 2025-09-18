@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getBlogPost, updateBlogPost, deleteBlogPost } from '@/lib/blog-data'
+import { getBlogPost, updateBlogPost, deleteBlogPost } from '../../../../lib/blog-data'
 
 export async function GET(
   request: NextRequest,
